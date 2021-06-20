@@ -1,0 +1,527 @@
+
+.ab{
+  background-color: rgb(255, 255, 255);
+  width: 40%;
+  height: 100%;
+  padding: 30px 40px;
+  position:fixed;
+  top:0px;
+  left:0px;
+}
+.abb{
+  padding: 60px;
+  padding-top: 30px;
+  color: rgb(31, 108, 224);
+  font-weight:bolder;
+  font-family: 'sans-serif', Tahoma, Geneva, Verdana, Segoe UI;
+}
+
+.log{
+  margin-left: 70vh;
+}
+
+.abb h1{
+  line-height: 50px;;
+}
+
+.abb p{
+  margin-top:30px ;
+  line-height: 30px;
+}
+
+#be{
+  height:45px;width: 45px;
+  margin-right: 10px;
+}
+
+.abb button{
+  margin-top: 30px;
+  width:150px;
+  height:50px;
+  border:0;
+  background-color:rgb(35, 123, 255);
+  color:#fff;
+  border-radius:20px;
+  transition: all .3s;
+}
+
+.abb button:hover {
+  background-color:rgb(255, 119, 29);
+  color:#fff;
+  border-radius:20px;
+  transition: all .3s;
+}
+
+@media only screen and (max-width: 800px) {
+  div.abb{
+    padding: 30px;
+    padding-top: 160px;
+  }
+  div.abb p {
+    margin-top:0px ;
+    line-height: 20px;
+    font-size: 12px;
+  }
+  div.abb img {
+    width: 30px ;
+    height: 30px;
+    margin-bottom: -10px;
+
+  }
+  div.abb h1{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight:bolder;
+  }
+  div.abb #be{
+  height:30px;width: 30px;
+  margin-right: 5px;
+  }
+  .log{
+    margin-left: 20vh;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .log{
+    margin-left: 20vh;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  div.ab {
+    display: none;
+  }
+  div.more {
+    display: none;
+  }
+  div.lb {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  div.lb {
+    display:none;
+  }
+}
+
+.box2{
+  background-color: rgb(255, 202, 27);
+  width: 100%;
+  height: auto;
+}
+
+
+.box3{
+  background-color: rgb(229, 235, 233);
+  width: 100%;
+  height: 60vh;
+  padding: 40px 60px;
+  color: rgb(8, 7, 6);
+  font-size: 24px;
+  font-family: 'sans-serif', Tahoma, Geneva, Verdana, Segoe UI;
+  line-height: 45px;
+}
+
+.box3 span{
+  width: 95%;
+  height: 4px;
+  background: rgb(184, 183, 183);
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius:20px;
+}
+#pertxt{
+  margin-top: -40px;
+  font-size: 18px;
+  line-height:40px;
+}
+
+@media only screen and (max-width: 800px) {
+  div.box3 {
+    padding: 70px 30px;
+    font-size: 16px;
+  }
+
+  div.box3 #pertxt{
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  div.box3 {
+    padding: 20px 30px;
+    font-size: 14px;
+  }
+  div.box3 span{
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+  div.box3 h3{
+    font-size: 18px;
+    font-weight:bolder;
+  }
+  div.box3 #pertxt{
+    font-size: 12px;
+    line-height:30px;
+  }
+}
+
+.box4{
+  background-color: rgba(24, 24, 24, 0.795);
+  width: 100%;
+  height: 8vh;
+  padding: 30px 40px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 800px) {
+  div.box4 {
+    padding-top: 30px;
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  div.box4 {
+    padding-top: 10px;
+    font-size: 10px;
+  }
+}
+
+.menu-btn{
+  width: 50px;
+  height: 50px;
+  background: rgb(255, 163, 58);
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  z-index: 999;
+  padding-top:0px;
+  box-sizing: border-box;
+  cursor:pointer;
+  border-bottom-left-radius:10px;
+  display:inline-block;
+  box-shadow:0px 0px 4px 3px rgba(44, 34, 30, 0.253);
+}
+
+.menu-btn span{
+  width: 60%;
+  height: 2px;
+  background: #fff;
+  display: block;
+  margin: 10px auto;
+  transition: all .3s;
+}
+
+.menu-box{
+  width: 45%;
+  height: 60vh;
+  background: rgb(255, 163, 58);
+  position: fixed;
+  top: 0;
+  right: -45%;
+  padding: 20px;
+  padding-top: 80px;
+  box-sizing: border-box;
+  transition: all .3s;
+  border-bottom-left-radius:10px;
+}
+
+.menu-box a{
+  text-align: center;
+  display: block;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'sans-serif', Tahoma, Geneva, Verdana, Segoe UI;
+  line-height: 1.6;
+  text-decoration:none;
+  padding: 3px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.menu-box a:hover{
+  display: block;
+  transition: all .3s;
+  color:rgb(255, 119, 29);
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  }
+
+.menu-box.active{
+  right: 0 !important;
+}
+
+.menu-btn.active span:first-child{
+  transform: rotate(45deg) translate(10px,5px);
+}
+
+.menu-btn.active span:last-child{
+  transform: rotate(-45deg)translate(11px,-6px);
+}
+
+.menu-btn.active span:nth-child(2){
+  opacity: 0;
+}
+
+
+#mo{
+  z-index: 9999;
+}
+
+
+.more-box{
+  width: 59%;
+  height: 100vh;
+  background: rgb(255, 163, 58);
+  position: fixed;
+  top: 0;
+  right: -60%;
+  padding: 30px 80px;
+  box-sizing: border-box;
+  transition: all .3s;
+  border-bottom-left-radius:10px;
+}
+
+.mob1{
+  width: 100%;
+  height: 100%;
+  margin-left: 60px;
+}
+.mobb1{
+  width:280px;
+  height: 280px;
+  margin-bottom:20px;
+}
+
+#bb{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+#b1{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 1025px) {
+  .col-4 {width: 100%;
+  height: 100%;}
+  .more-box{
+  padding: 0px 80px;
+  height: auto;
+  }
+  .mob1{
+    width: 65%;
+    height: 65%;
+    margin-left: 85px;
+  }
+  #b1 {
+    display: none;
+  }
+  .mobb1{
+    width:100%;
+    height: 100%;
+  }
+}
+
+.more-box.active{
+  right: 0 !important;
+}
+
+
+
+
+.mab{
+  background-color: rgb(255, 255, 255);
+  width: 20%;
+  height: 100%;
+  padding: 50px 40px;
+  position:fixed;
+  top:0px;
+  left:0px;
+}
+.mabb{
+  padding: 60px;
+  padding-top: 150px;
+  color: rgb(31, 108, 224);
+  font-weight:bolder;
+  font-family: 'sans-serif', Tahoma, Geneva, Verdana, Segoe UI;
+}
+
+.mlog{
+  border: 50px;
+  margin-bottom: 50px;
+  margin-left: 60px;
+}
+
+.mabb .aa{
+  text-align: center;
+  display: block;
+  color: rgb(23, 104, 253);
+  font-size: 16px;
+  font-family: 'sans-serif', Tahoma, Geneva, Verdana, Segoe UI;
+  text-decoration:none;
+  background-color: rgba(255, 255, 255, 0);
+  line-height:30px;
+}
+
+.mabb .aa:hover{
+  display: block;
+  transition: all .3s;
+  color:rgb(255, 255, 255);
+  background-color: rgb(255, 143, 68);
+  border-radius: 10px;
+  }
+
+#mbe{
+  height:45px;width: 45px;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+@media only screen and (max-width: 800px) {
+  div.mabb{
+    padding: 30px;
+    padding-top: 150px;
+  }
+  div.mabb #mbe{
+  height:30px;width: 30px;
+  margin-left:5px;
+  margin-top: 20px;
+  }
+  div.mabb .mlog{
+    margin-left: 0px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .mlog{
+    margin-left: 0px;
+}
+div.mabb #mbe{
+  margin-left:5px;
+  margin-top: 20px;
+  }
+  div.mabb{
+    padding: 30px;
+    padding-top: 250px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  div.mab {
+    display: none;
+  }
+}
+
+
+.mbox2{
+  width: 100%;
+  height: auto;
+  background: rgb(224, 224, 224);
+  padding: 20px;
+  box-sizing: border-box;
+  transition: all .3s;
+  border-bottom-left-radius:10px;
+}
+
+.AN1{
+  flex: 25%;
+  padding: 10px 15px;
+}
+.an1{
+  border-radius: 20px;
+  overflow: hidden;
+}
+.im{
+  height: auto;
+  max-width: 100%;
+  transition: all .6s;
+}
+.iv{
+  height: auto;
+  max-width: 100%;
+}
+.anp{
+    display:none;
+    position: absolute;
+    font-weight: bold;
+    margin-top: 150px;
+    margin-left: 70px;
+    font-size: 24px;
+    text-shadow: 0em 0em 0.3em black;
+    color: white;
+    transition: all .6s;
+    z-index: 9999;
+}
+.app{
+  font-size: 14px;
+  line-height:20px;
+}
+.AN1:hover .an1 .anp{
+  display: block;
+}
+
+.AN1:hover .an1 .im{
+  transform: scale(1.5);
+  filter: brightness(.5);
+  filter: blur(2px);
+}
+
+@media only screen and (max-width: 600px) {
+  .row{   
+    flex-direction: column;
+  }
+  div.an1{
+    width: 300px;
+    height:300px;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  div.an1{
+    width: 225px;
+    height:225px;
+  }
+}
+@media only screen and (min-width: 801px) {
+  div.an1{
+    width: 300px;
+    height:300px;
+  }
+}
+
+.ip{
+  height: auto;
+  max-width: 50%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.ipp{
+  height: auto;
+  max-width:49%;
+  margin-bottom: 20px;
+}
+
+.iv2{
+  height: auto;
+  max-width: 100%;
+  margin-bottom: 15px;
+}
+
+.ippp{
+  height: auto;
+  max-width: 45%;
+  margin:20px;
+}
+
+.ipppp{
+  height: auto;
+  max-width:45%;
+  margin: 20px;
+}
