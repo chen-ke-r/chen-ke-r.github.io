@@ -123,7 +123,7 @@
   line-height: 45px;
 }
 
-.box3 span{
+.box3 .sp{
   width: 95%;
   height: 4px;
   background: rgb(184, 183, 183);
@@ -132,6 +132,25 @@
   margin-bottom: 40px;
   border-radius:20px;
 }
+.box3 .spp1{
+  margin-right:5px;
+}
+.box3 .spp2{
+  margin-right:70px;
+}
+.box3 .spp3{
+  margin-right:65px;
+}
+.box3 .spp4{
+  margin-right:75px;
+}
+.box3 .spp5{
+  margin-right:80px;
+}
+.box3 .spp6{
+  margin-right:50px;
+}
+
 #pertxt{
   margin-top: -40px;
   font-size: 18px;
@@ -154,7 +173,7 @@
     padding: 20px 30px;
     font-size: 14px;
   }
-  div.box3 span{
+  div.box3 .sp{
     margin-top: 15px;
     margin-bottom: 20px;
   }
@@ -166,7 +185,24 @@
     font-size: 12px;
     line-height:30px;
   }
+  .box3 .spp2{
+    margin-right:80px;
+  }
+  .box3 .spp3{
+    margin-right:75px;
+  }
+  .box3 .spp4{
+    margin-right:80px;
+  }
+  .box3 .spp5{
+    margin-right:85px;
+  }
+  .box3 .spp6{
+    margin-right:65px;
+  }
 }
+
+
 
 .box4{
   background-color: rgba(24, 24, 24, 0.795);
@@ -525,3 +561,4 @@ div.mabb #mbe{
   max-width:45%;
   margin: 20px;
 }
+
