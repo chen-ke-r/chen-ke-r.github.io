@@ -9,15 +9,15 @@
   left:0px;
 }
 .abb{
-  padding: 60px;
-  padding-top: 30px;
+  padding: 15%;
+  padding-top: 0%;
   color: rgb(31, 108, 224);
   font-weight:bolder;
   font-family: 'sans-serif', Tahoma, Geneva, Verdana, Segoe UI;
 }
 
 .log{
-  margin-left: 70vh;
+  margin-left:90%;
 }
 
 .abb h1{
@@ -35,7 +35,7 @@
 }
 
 .abb button{
-  margin-top: 30px;
+  margin-top: 10%;
   width:150px;
   height:50px;
   border:0;
@@ -205,13 +205,14 @@
 
 
 .box4{
-  background-color: rgba(24, 24, 24, 0.795);
+  background-color: rgb(24, 24, 24);
   width: 100%;
   height: 8vh;
   padding: 30px 40px;
   color: rgb(255, 255, 255);
   text-align: center;
   font-size: 16px;
+  
 }
 
 @media only screen and (max-width: 800px) {
